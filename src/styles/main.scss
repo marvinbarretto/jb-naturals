@@ -1,0 +1,90 @@
+$green: #28a857;
+$yellow: #fdda24;
+$background-color: #000000;
+$text-color: #ffffff;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: $background-color;
+  font-family: Arial, sans-serif;
+  color: $text-color;
+  min-height: 100vh;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 3rem;
+  padding: 1rem;
+  background-color: $background-color;
+  border: solid 10px $green;
+  box-sizing: border-box;
+}
+
+main {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+h1 {
+  color: $green;
+  font-size: 2rem;
+}
+
+p {
+  font-size: 18px;
+}
+
+form {
+  background-color: $green;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  border-radius: 0.25rem;
+}
+
+.ml-form-fieldRow {
+  padding: 0.5rem;
+}
+
+img {
+  display: block;
+  max-width: 300px;
+}
+
+input {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 0.25rem;
+  width: 100%;
+}
+
+button {
+  background-color: $yellow;
+  color: $background-color;
+  padding: 0.5rem 2rem;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  font-size: 2rem;
+  font-weight: bold;
+}
